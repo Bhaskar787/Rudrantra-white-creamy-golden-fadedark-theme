@@ -26,7 +26,7 @@ const slides = [
     sub: '1 through 14 Mukhi, naturally strung on red silk thread and energized in one sacred ceremony. The rarest offering in our collection.',
     cta: 'Shop Siddha Mala',
     href: '#',
-    image: 'https://rudrantra.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdeiusxdk9%2Fimage%2Fupload%2Fv1772001085%2Frudrantra%2Fhero%2Ffrag67pnx46gkvcys9jd.png&w=3840&q=75',
+    image: 'https://as2.ftcdn.net/v2/jpg/20/59/74/45/1000_F_2059744578_NHiIWwR9qzKgYNRxJ3qdlpqudHmDrPQS.jpg',
   },
 ];
 
