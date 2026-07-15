@@ -5,7 +5,7 @@ import { MukhiCardGrid } from '@/components/MukhiCardGrid';
 
 export default function MukhiGuidePage() {
   return (
-    <section className="py-14 sm:py-20 md:py-24 bg-forest-deep min-h-screen relative overflow-hidden">
+    <section className="py-14 sm:py-20 md:py-24 bg-[#FFF8F0] min-h-screen relative overflow-hidden">
       {/* OM Section Divider */}
       <div className="flex items-center justify-center gap-3 sm:gap-4 px-4 pt-0 pb-6 sm:pb-8 relative z-10">
         <div className="h-px flex-1 bg-gradient-to-r from-transparent via-gold to-transparent max-w-xs opacity-60" />
@@ -13,8 +13,11 @@ export default function MukhiGuidePage() {
         <div className="h-px flex-1 bg-gradient-to-r from-transparent via-gold to-transparent max-w-xs opacity-60" />
       </div>
 
-      {/* Star field overlay */}
-      <div className="absolute inset-0 bg-stars opacity-15 pointer-events-none" />
+      {/* Astrological watermark: sacred-geometry mandala centered behind the
+          content, plus a faint gold constellation of dots — both read as
+          soft gold-on-cream rather than the previous starfield-on-void look. */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[900px] aspect-square bg-mandala opacity-[0.06] pointer-events-none" />
+      <div className="absolute inset-0 bg-stars opacity-[0.12] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
@@ -33,7 +36,7 @@ export default function MukhiGuidePage() {
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-display text-gold-gradient tracking-tight leading-tight px-2">
             The Complete Language of Mukhi
           </h2>
-          <p className="text-cream/80 font-body text-sm sm:text-base md:text-lg leading-relaxed mt-4 sm:mt-6 px-4">
+          <p className="text-[#6B5A3E] font-body text-sm sm:text-base md:text-lg leading-relaxed mt-4 sm:mt-6 px-4">
             All fourteen sacred configurations — their ruling deity, cosmic association, and metaphysical purpose, as described in the Shiva Purana.
           </p>
         </div>
