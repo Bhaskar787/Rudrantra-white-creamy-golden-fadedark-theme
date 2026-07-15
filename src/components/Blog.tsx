@@ -186,7 +186,8 @@ export function Blog() {
               </div>
             </div>
             <p className="font-body text-[#6B5A3E] text-sm sm:text-base leading-relaxed mb-4 sm:mb-5 max-w-xl">{featured.excerpt}</p>
-            <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-[10px] sm:text-xs font-heading uppercase tracking-widest text-gold/50">
+            {/* FIX: was text-gold/50 (too faint on cream bg) -> solid dark bronze-gold */}
+            <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-[10px] sm:text-xs font-heading uppercase tracking-widest text-[#8B6F1F]">
               <span>{featured.date}</span>
               <span className="w-1 h-1 rounded-full bg-gold/30" />
               <span className="flex items-center gap-1"><Clock className="w-3 h-3" />{featured.readTime}</span>
@@ -206,14 +207,16 @@ export function Blog() {
                 <div className="flex flex-col justify-between flex-1 min-w-0">
                   <div>
                     <div className="flex items-center gap-2 mb-1.5 sm:mb-2">
-                      <span className="text-[8px] sm:text-[9px] font-heading font-bold uppercase tracking-widest text-gold/60">{post.category}</span>
+                      {/* FIX: was text-gold/60 (too faint on cream bg) -> solid dark bronze-gold */}
+                      <span className="text-[8px] sm:text-[9px] font-heading font-bold uppercase tracking-widest text-[#8B6F1F]">{post.category}</span>
                       {post.badge && (
                         <span className="text-[7px] sm:text-[8px] font-heading font-bold uppercase bg-crimson text-white px-1.5 sm:px-2 py-0.5 rounded">{post.badge}</span>
                       )}
                     </div>
                     <h4 className="font-heading text-xs sm:text-sm text-[#2D2400] leading-snug line-clamp-2 group-hover:text-gold transition-colors">{post.title}</h4>
                   </div>
-                  <div className="flex items-center gap-2 sm:gap-3 text-[9px] sm:text-[10px] font-heading uppercase tracking-widest text-gold/40 mt-2">
+                  {/* FIX: was text-gold/40 (too faint on cream bg) -> solid dark bronze-gold */}
+                  <div className="flex items-center gap-2 sm:gap-3 text-[9px] sm:text-[10px] font-heading uppercase tracking-widest text-[#8B6F1F] mt-2">
                     <span>{post.date}</span>
                     <span>·</span>
                     <span>{post.readTime}</span>
