@@ -1,3 +1,63 @@
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="180" height="180" rx="36" fill="#FF3C00"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" width="560" height="560">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3D98A"/>
+      <stop offset="45%" stop-color="#E8C547"/>
+      <stop offset="100%" stop-color="#C9973A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E8C547" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#E8C547" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="280" cy="280" r="270" fill="url(#glow)"/>
+
+  <g>
+    <circle cx="280" cy="280" r="248" fill="none" stroke="url(#goldGrad)" stroke-width="3"/>
+    <circle cx="280" cy="280" r="222" fill="none" stroke="#C9973A" stroke-width="1" stroke-opacity="0.55"/>
+    <circle cx="280" cy="280" r="196" fill="none" stroke="#C9973A" stroke-width="1" stroke-opacity="0.4"/>
+
+    <g stroke="#C9973A" stroke-opacity="0.5" stroke-width="1">
+      <path d="M280 58 L280 502"/>
+      <path d="M58 280 L502 280"/>
+      <path d="M115 115 L445 445"/>
+      <path d="M115 445 L445 115"/>
+    </g>
+
+    <g fill="none" stroke="url(#goldGrad)" stroke-width="2.5">
+      <path d="M280 70 C 262 110, 262 150, 280 178 C 298 150, 298 110, 280 70 Z"/>
+      <path d="M280 490 C 262 450, 262 410, 280 382 C 298 410, 298 450, 280 490 Z"/>
+      <path d="M70 280 C 110 262, 150 262, 178 280 C 150 298, 110 298, 70 280 Z"/>
+      <path d="M490 280 C 450 262, 410 262, 382 280 C 410 298, 450 298, 490 280 Z"/>
+      <path d="M135 135 C 168 145, 195 168, 205 200 C 172 192, 148 168, 135 135 Z"/>
+      <path d="M425 425 C 392 415, 365 392, 355 360 C 388 368, 412 392, 425 425 Z"/>
+      <path d="M425 135 C 415 168, 392 195, 360 205 C 368 172, 392 148, 425 135 Z"/>
+      <path d="M135 425 C 145 392, 168 365, 200 355 C 192 388, 168 412, 135 425 Z"/>
+    </g>
+
+    <g fill="#C9973A">
+      <circle cx="280" cy="46" r="6"/>
+      <circle cx="366" cy="68" r="6"/>
+      <circle cx="436" cy="124" r="6"/>
+      <circle cx="480" cy="200" r="6"/>
+      <circle cx="494" cy="280" r="6"/>
+      <circle cx="480" cy="360" r="6"/>
+      <circle cx="436" cy="436" r="6"/>
+      <circle cx="366" cy="492" r="6"/>
+      <circle cx="280" cy="514" r="6"/>
+      <circle cx="194" cy="492" r="6"/>
+      <circle cx="124" cy="436" r="6"/>
+      <circle cx="80" cy="360" r="6"/>
+      <circle cx="66" cy="280" r="6"/>
+      <circle cx="80" cy="200" r="6"/>
+    </g>
+
+    <circle cx="280" cy="280" r="150" fill="#FFF8F0"/>
+    <circle cx="280" cy="280" r="150" fill="none" stroke="url(#goldGrad)" stroke-width="3"/>
+    <circle cx="280" cy="280" r="136" fill="none" stroke="#C9973A" stroke-width="1" stroke-opacity="0.5"/>
+
+    <text x="280" y="345" font-family="Noto Sans Devanagari" font-size="205" font-weight="600"
+          text-anchor="middle" fill="url(#goldGrad)">&#2384;</text>
+  </g>
 </svg>
