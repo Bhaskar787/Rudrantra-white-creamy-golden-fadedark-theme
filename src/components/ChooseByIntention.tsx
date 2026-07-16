@@ -10,7 +10,7 @@ const tabs = [
     id: 'growth',
     label: 'Spiritual Growth',
     desc: 'Deepen sadhana, meditation, and devotion.',
-    detail: 'Deepen sadhana, meditation, and devotion. These malas are traditionally worn by seekers who want a steadier mind and a closer connection to daily practice.',
+    detail: 'Deepen sadhana, meditation, and devotion. ',
     image: 'https://himalayarudraksh.online/cdn/shop/files/1-13-mukhi-shiv-shakti-rudraksha-mala-nepal-origin-499218.png?v=1750001216&width=3840',
   },
   {
