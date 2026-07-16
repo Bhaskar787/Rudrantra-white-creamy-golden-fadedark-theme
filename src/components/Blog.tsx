@@ -211,7 +211,7 @@ export function Blog() {
                       <span className="text-[8px] sm:text-[9px] font-heading font-bold uppercase tracking-widest text-[#8B6F1F]">{post.category}</span>
                       {post.badge && (
                         <span className="text-[7px] sm:text-[8px] font-heading font-bold uppercase bg-crimson text-white px-1.5 sm:px-2 py-0.5 rounded">{post.badge}</span>
-                      )}
+                      )} 
                     </div>
                     <h4 className="font-heading text-xs sm:text-sm text-[#2D2400] leading-snug line-clamp-2 group-hover:text-gold transition-colors">{post.title}</h4>
                   </div>
